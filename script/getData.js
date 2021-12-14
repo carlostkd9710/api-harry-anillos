@@ -1,15 +1,21 @@
-let btnCategoria1 = document.getElementById('btnCategory1')
-let btnCategoria2 = document.getElementById('btnCategory2')
+let btnCategoria1 = document.getElementById('btnCategory1') /* selecciona los elementos con el ID */
+let btnCategoria2 = document.getElementById('btnCategory2') /* selecciona los elementos con el ID */
 
-const getElementos =async (url) => {
-    let mostrarElementos = document.querySelector('.grid-elementos')
+const getElementos = async (url) => {
+    let mostrarElementos = document.querySelector('.grid-elementos') /* selecciona el elemento */
     mostrarElementos.innerHTML = ''
 
     const resp = await fetch(url)
     const data = await resp.json()
 
     data.forEach(element => {
-        const{nombre,genero,vivo,amigos,imagen} = element
+        const {
+            nombre,
+            genero,
+            vivo,
+            amigos,
+            imagen
+        } = element
         mostrarElementos.innerHTML += `
         <div class="col elementos">
             <a href="#" class="enlace-detalle-elemento">
@@ -29,10 +35,10 @@ const getElementos =async (url) => {
     });
 }
 
-btnCategoria1.addEventListener('click',()=>{
+btnCategoria1.addEventListener('click', () => {
     getElementos('http://localhost:4000/harryPotter')
 })
-btnCategoria2.addEventListener('click',()=>{
+btnCategoria2.addEventListener('click', () => {
     getElementos('http://localhost:4001/lotr')
 })
 /* json-server --watch ubicacionArchivo --port 4000 */
