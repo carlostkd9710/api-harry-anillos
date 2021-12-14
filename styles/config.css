@@ -88,6 +88,12 @@
     color: var(--color-gray)
 }
 
+.menu-elementos {
+    position: fixed;
+    bottom: 95%;
+    width: 100%;
+}
+
 .icono-activo {
     width: 122px;
     height: 40px;

@@ -35,3 +35,6 @@ btnCategoria1.addEventListener('click',()=>{
 btnCategoria2.addEventListener('click',()=>{
     getElementos('http://localhost:4001/lotr')
 })
+/* json-server --watch ubicacionArchivo --port 4000 */
+/* json-server --watch data/bdHarrypotter.json --port 4000
+json-server --watch data/bdLotR.json --port 4001 */
