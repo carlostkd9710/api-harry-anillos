@@ -88,12 +88,6 @@
     color: var(--color-gray)
 }
 
-.menu-mascotas {
-    position: fixed;
-    top: 92%;
-    width: 100%;
-}
-
 .icono-activo {
     width: 122px;
     height: 40px;
