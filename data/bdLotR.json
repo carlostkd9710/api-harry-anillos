@@ -1,0 +1,61 @@
+{
+  "lotr": [
+    {
+      "id": 1,
+      "nombre": "Frodo Bolson",
+      "genero": "masculino",
+      "vivo": true,
+      "amigos": [
+        "Bilbo Bolson",
+        "Sam Gamyi",
+        "Pippin",
+        "Merry"
+      ],
+      "historia": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1637605108/Api_harrypotter_sranillos/Frodo_fvd4im.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Gollum",
+      "genero": "masculino",
+      "vivo": false,
+      "amigos": [
+        "Anillo",
+        "Sméagol"
+      ],
+      "historia": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1637605108/Api_harrypotter_sranillos/Gollum_mrpbfg.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Gandalf el blanco",
+      "genero": "masculino",
+      "vivo": true,
+      "amigos": [
+        "Bilbo Bolson",
+        "Sam Gamyi",
+        "Pippin",
+        "Merry",
+        "Legolas",
+        "Aragorn",
+        "Gimli"
+      ],
+      "historia": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1637605108/Api_harrypotter_sranillos/Gandalf_qcua2w.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Sauron",
+      "genero": "masculino",
+      "vivo": false,
+      "amigos": [
+        "Siervos"
+      ],
+      "historia": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "imagen": "https://res.cloudinary.com/dvh5dsa7s/image/upload/v1637605108/Api_harrypotter_sranillos/Sauron_nfas7t.jpg"
+    },
+    {
+      "id": 5
+    }
+  ]
+}
